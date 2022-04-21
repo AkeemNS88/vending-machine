@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "id": "A1",
+            "name": "Superbubble",
+            "price": "0.25",
+            "quantity": 10,
+            "type": "gum"
+        },   
+        {
+            "id": "A2",
+            "name": "Mintbubble",
+            "price": "0.25",
+            "quantity": 10,
+            "type": "gum"
+        },   
+        {
+            "id": "A3",
+            "name": "Redhawts",
+            "price": "0.25",
+            "quantity": 10,
+            "type": "gum"
+        },   
+        {
+            "id": "B4",
+            "name": "Politos Wavey",
+            "price": "0.50",
+            "quantity": 5,
+            "type": "chips"
+        },   
+        {
+            "id": "B5",
+            "name": "Nacholitos",
+            "price": "0.50",
+            "quantity": 5,
+            "type": "chips"
+        },   
+        {
+            "id": "B6",
+            "name": "Original Mays",
+            "price": "0.50",
+            "quantity": 5,
+            "type": "chips"
+        },   
+        {
+            "id": "C7",
+            "name": "Dola Cola",
+            "price": "1.00",
+            "quantity": 8,
+            "type": "drink"
+        },   
+        {
+            "id": "C8",
+            "name": "Lime Blast",
+            "price": "1.00",
+            "quantity": 8,
+            "type": "drink"
+        },   
+        {
+            "id": "C9",
+            "name": "Hydranta",
+            "price": "1.00",
+            "quantity": 8,
+            "type": "drink"
+        },            
+        {
+            "id": "C0",
+            "name": "Intelliwater",
+            "price": "1.00",
+            "quantity": 8,
+            "type": "drink"
+        }            
+    ]
+}
