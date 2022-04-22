@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState('');
   const [currentNumber, setCurrentNumber] = useState('0');
   const [operator, setOperator] = useState(undefined);
-  const [equalPressed, setEqualPressed] = useState(false);
+  const [dispensePressed, setDispensePressed] = useState(false);
 
   const buttons = [
     { label: 'AC', id: 'clear', class: 'reset'},
@@ -26,7 +26,7 @@ function App() {
     { label: '+', id: 'add', class: 'operator'},
     { label: 0, id: 'zero', class: 'zero'},
     { label: '.', id: 'decimal', class: 'decimal'},
-    { label: '=', id: 'equals', class: 'equals'}
+    { label: 'Fin', id: 'dispense', class: 'dispense'}
   ];
 
   return (
@@ -36,7 +36,7 @@ function App() {
        <div className="keyboard">
         <div className="button-container">
           {buttons.map(btn => (
-              <Button key={btn.id} btn={btn} input={input} setInput={setInput} currentNumber={currentNumber} setCurrentNumber={setCurrentNumber} operator={operator} setOperator={setOperator} equalPressed={equalPressed} setEqualPressed={setEqualPressed} />
+              <Button key={btn.id} btn={btn} input={input} setInput={setInput} currentNumber={currentNumber} setCurrentNumber={setCurrentNumber} operator={operator} setOperator={setOperator} dispensePressed={dispensePressed} setDispensePressed={setDispensePressed} />
             )
           )}
         </div>
